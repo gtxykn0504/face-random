@@ -2,9 +2,9 @@ import sys
 import random
 import cv2
 from cvzone.FaceDetectionModule import FaceDetector
-from PyQt6.QtCore import QTimer
-from PyQt6.QtGui import QImage, QPixmap
-from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton
+from PySide6.QtCore import QTimer
+from PySide6.QtGui import QImage, QPixmap
+from PySide6.QtWidgets import QApplication, QWidget, QLabel, QPushButton
 
 
 class FaceRandomApp(QWidget):
