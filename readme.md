@@ -1,1 +1,1 @@
-nuitka --standalone --include-package=cv2 --enable-plugin=pyside6 --include-data-dir=F:\python310\lib\site-packages\cv2\data=cv2\data --output-dir=dist3 --remove-output 3.py
+nuitka --standalone --include-package=cv2 --enable-plugin=pyside6 --windows-console-mode=disable --windows-icon-from-ico=./icon.ico --include-data-dir=F:\python310\lib\site-packages\cv2\data=cv2\data --output-dir=dist32 --remove-output 3-2.py
